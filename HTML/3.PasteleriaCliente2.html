@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GalacticCake | Pedido</title>
+</head>
+
+<body>
+    <img src="./1.LogoPasteles.png" alt="LogoPasteleria" width="250px">
+    
+    <h1>Bienvenidos a Galactic Cake</h1>
+    
+    <p>Estamos ubicados en <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam incidunt fugit voluptatem quos non? <br>Quasi laboriosam, eligendi ratione doloribus, cum adipisci, nostrum eaque asperiores alias voluptates dicta fugit corrupti quod.</p>
+    <p>Telefono: 551-234-5678</p>
+    <p>Horarios de atención: Martes a Domingo de 10 am a 10 pm</p>
+
+    <h2>¿Qué podemos preparar para usted?</h2>
+
+    <form action="pedido.js">
+        <label for="Nombre">Danos tu nombre para comenzar el pedido</label><br>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Nombre"><br><br>
+        <label for="tel1">Ingrese un telefono para estar en contacto</label><br>
+        <input type="tel" id="tel1" name="tel1" placeholder="Número" maxlength="10"><br><br>
+        <label for="correo1">Ingrese un correo electronico</label><br>
+        <input type="email" id="correo1" name="correo1" placeholder="Correo electronico"><br><br>
+        <br><br>
+
+        <h3>Selecciona el sabor de bizcocho</h3>
+        <input type="radio" id="Vainilla" name="saborBizcocho" value="Vainilla">
+        <label for="Vainilla">Vainilla</label><br>
+        <input type="radio" id="Chocolate" name="saborBizcocho" value="Chocolate">
+        <label for="Chocolate">Chocolate</label><br>
+        <input type="radio" id="Fresa" name="saborBizcocho" value="Fresa">
+        <label for="Fresa">Fresa</label><br>        
+        <input type="radio" id="Limón" name="saborBizcocho" value="Limón">
+        <label for="Limón">Limón</label><br>
+        <input type="radio" id="Combinado" name="saborBizcocho" value="Combinado">
+        <label for="Combinado">Combinado</label><br>
+
+        <p>Selecciona tus sabores si deseas que sea combinado si no puedes dejar la siguiente parte<br> en blanco y continuar a elegir el relleno de tu pastel</p>
+
+        <input type="checkbox" id="Vainilla" name="saborCombinado" value="Vainilla">
+        <label for="Vainilla">Vainilla</label><br>
+        <input type="checkbox" id="Chocolate" name="saborCombinado" value="Chocolate">
+        <label for="Chocolate">Chocolate</label><br>
+        <input type="checkbox" id="Fresa" name="saborCombinado" value="Fresa">
+        <label for="Fresa">Fresa</label><br>
+        <input type="checkbox" id="Limón" name="saborCombinado" value="Limón">
+        <label for="Limón">Limón</label><br>
+
+        <h2>Selecciona el relleno de tu pastel</h2>
+        <label for="tipoRelleno">Relleno del pastel</label><br>
+        <select id="tipoRelleno" name="tipoRelleno">
+            <option value="Mermelada">Mermelada</option>
+            <option value="Ganache">Ganache</option>
+            <option value="Crama batida">Crama batida</option>
+        </select>
+        <br><br>
+
+        <h3>Selecciona el tipo de adorno que deseas</h3>
+        <input type="radio" id="Frutas" name="saborBizcocho" value="Frutas">
+        <label for="Frutas">Frutas</label><br>
+        <input type="radio" id="Fondant" name="saborBizcocho" value="Fondant">
+        <label for="Fondant">Fondant</label><br>
+        <input type="radio" id="Chantilly" name="saborBizcocho" value="Chantilly">
+        <label for="Chantilly">Chantilly</label><br>        
+        <input type="radio" id="Merengue" name="saborBizcocho" value="Merengue">
+        <label for="Merengue">Merengue</label><br>
+        <input type="radio" id="Combinado" name="saborBizcocho" value="Combinado">
+        <label for="Combinado">Combinado</label><br>
+
+        <p>Selecciona tus decoraciones si deseas que sea combinado si no puedes dejar la siguiente parte<br> en blanco y continuar con ru pedido</p>
+
+        <input type="checkbox" id="Frutas" name="saborCombinado" value="Frutas">
+        <label for="Frutas">Frutas</label><br>
+        <input type="checkbox" id="Fondant" name="saborCombinado" value="Fondant">
+        <label for="Fondant">Fondant</label><br>
+        <input type="checkbox" id="Chantilly" name="saborCombinado" value="Chantilly">
+        <label for="Chantilly">Chantilly</label><br>
+        <input type="checkbox" id="Merengue" name="saborCombinado" value="Merengue">
+        <label for="Merengue">Merengue</label><br>
+
+        <br><br>
+        <input type="reset">
+        <input type="submit">
+        <br><br>
+    </form>
+
+</body>
+
+</html>
